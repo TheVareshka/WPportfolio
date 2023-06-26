@@ -1,0 +1,79 @@
+.header__section {
+  margin-bottom: 90px;
+}
+.header__section-title {
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #FFBF40;
+  margin-top: 53px;
+  margin-bottom: 32px;
+  position: relative;
+  outline: none;
+}
+.header__section-title a {
+  text-decoration: none;
+  color: inherit;
+}
+.header__section-title::before {
+  content: "";
+  position: absolute;
+  width: 107px;
+  height: 15px;
+  left: -145px;
+  top: 5px;
+  background: url("../img/portfolio-arrow.svg") center 0 no-repeat;
+}
+.header__info {
+  display: flex;
+  color: #fff;
+}
+.header__info-slider {
+  margin-right: 46px;
+}
+.header__info-about {
+  max-width: 582px;
+}
+.header__info-heading {
+  font-family: "HandelGothic TL";
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 86px;
+  line-height: 98.49%;
+  margin-bottom: 17px;
+}
+.header__info-position {
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 39px;
+  text-transform: uppercase;
+  color: #FFBF40;
+  margin-bottom: 37px;
+}
+.header__info-description {
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin-bottom: 17px;
+}
+.header__info-achievements {
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.header__slider-button {
+  display: flex;
+  justify-content: space-between;
+}/*# sourceMappingURL=header_section.css.map */
